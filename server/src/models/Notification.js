@@ -5,7 +5,7 @@ class Notification {
       this.message = message;
     }
   
-    sendNotification() {
+    sendAppNotification() {
       // Gửi thông báo
     }
   }

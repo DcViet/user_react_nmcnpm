@@ -1,11 +1,15 @@
 // src/models/User.js
 class User {
-    constructor(userId, name, phoneNumber) {
-      this.userId = userId;
-      this.name = name;
-      this.phoneNumber = phoneNumber;
-    }
+  constructor(userId, name, phoneNumber) {
+    this.userId = userId;
+    this.name = name;
+    this.phoneNumber = phoneNumber;
   }
-  
-  module.exports = User;
-  
+
+  // Các hoạt động khác của User
+  doSomething() {
+    console.log(`${this.name} is doing something.`);
+  }
+}
+
+module.exports = User;

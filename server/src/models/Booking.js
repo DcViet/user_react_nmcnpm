@@ -1,3 +1,4 @@
+// src/models/Booking.js
 class Booking {
     constructor(bookingId, status, customer, driver, location) {
       this.bookingId = bookingId;

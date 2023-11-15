@@ -1,3 +1,4 @@
+// src/models/Customer.js
 class Customer {
     constructor(customerId, name, phoneNumber) {
       this.customerId = customerId;
